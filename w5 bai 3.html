@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf=8>"
+<title>Create product list with CSS3</title>
+<style type="text/css">
+.ProductDetails {display: none;}
+.Product img {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #aaa;
+}
+.ProductName {font-weight: bold;}
+.ProductPrice {font-style: italic;}
+.ProductPrice:before {content: " - ";}
+.Product {
+    text-align: center;
+    width: 150px;
+    margin: 0px 20px;
+    float: left;
+    cursor: pointer;
+}
+.Product:hover .ProductDetails {display: block;}
+</style>
+</head>
+<body>
+<div>
+    <div class="Product">
+        <img src="C:\Users\Admin\Downloads\images.jpg" />
+        <div class="ProductDetails">
+            <span class="ProductName">HoangKhanhLinh</span>
+            <span class="ProductPrice">23070288</span>
+        </div>
+    </div>
+    <div class="Product">
+        <img src="C:\Users\Admin\Downloads\anh hoang khanh linh.jpg" />
+        <div class="ProductDetails">
+            <span class="Pathname">NguyenA</span>
+            <span class="ProductPrice">23070456</span>
+        </div>
+    </div>
+    <div class="Product">
+        <img src="C:\Users\Admin\Downloads\images 3.jpg" />
+        <div class="ProductDetails">   
+            <span class="ProductName">HoangB</span>
+            <span class="ProductPrice">23070987</span>
+        </div>
+    </div>
+    <div class="Product">
+        <img src="C:\Users\Admin\Downloads\download.jpg" />
+        <div class="ProductDetails">
+            <span class="Pathname">NguyenC</span>
+            <span class="ProductPrice">23070496</span>
+        </div>
+    </div>
+    <div class="Product">
+        <img src="C:\Users\Admin\Downloads\download (1).jpg" />
+        <div class="ProductDetails">
+            <span class="Pathname">NguyenD</span>
+            <span class="ProductPrice">23070596</span>
+        </div>
+    </div> 
+    <div class="Product">
+        <img src="C:\Users\Admin\Downloads\download (2).jpg" />
+        <div class="ProductDetails">
+            <span class="Pathname">NguyenE</span>
+            <span class="ProductPrice">23070516</span>
+        </div>
+    </div>  
+    <div class="Product">
+        <img src="C:\Users\Admin\Downloads\images (0).jpg" />
+        <div class="ProductDetails">
+            <span class="Pathname">Nguyenl</span>
+            <span class="ProductPrice">23070506</span>
+        </div>
+    </div>  
+    <div class="Product">
+        <img src="C:\Users\Admin\Downloads\download 9.jpg" />
+        <div class="ProductDetails">
+            <span class="Pathname">NguyenF</span>
+            <span class="ProductPrice">23070006</span>
+        </div>
+    </div>  
+    <div class="Product">
+        <img src="C:\Users\Admin\Downloads\download 8.jpg" />
+        <div class="ProductDetails">
+            <span class="Pathname">NguyenM</span>
+            <span class="ProductPrice">2307096</span>
+        </div>
+    </div>  
+    <div class="Product">
+        <img src="C:\Users\Admin\Downloads\download (7.jpg" />
+        <div class="ProductDetails">
+            <span class="Pathname">NguyenN</span>
+            <span class="ProductPrice">23070886</span>
+        </div>
+    </div>  
+</div>
+</body>
+</html>
