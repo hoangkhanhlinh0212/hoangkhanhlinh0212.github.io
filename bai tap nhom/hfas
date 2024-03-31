@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Member Task Table</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h2>Member Task Table</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>STT</th>
+                <th>Tên thành viên</th>
+                <th>MSSV</th>
+                <th>Nhiệm vụ được giao</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Ngô Thủy Anh</td>
+                <td>23070210</td>
+                <td>Danh sách sự kiện</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Lâm Thị Hạnh</td>
+                <td>23070117</td>
+                <td>Tạo sự kiện mới</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Hoàng Khánh Linh</td>
+                <td>23070288</td>
+                <td>Chi tiết sự kiện</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Vũ Nguyễn Duy Anh</td>
+                <td>23070417</td>
+                <td>Hồ sơ người dùng</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Lương Thị Phương Loan</td>
+                <td>23070303</td>
+                <td>Trang chủ và Thông tin liên hệ</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
